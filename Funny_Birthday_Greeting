@@ -1,0 +1,67 @@
+
+import time
+import hashlib
+import urllib
+from time import sleep
+
+Name = None
+while(Name != "{Name of Recipient}"):
+  Name= input("Enter the Name: ")
+  if(Name == "{Name of Recipient}"):
+    print("**************")
+    sleep(1)
+    print("H", end="")
+
+    print("A", end="")
+
+    print("P", end="")
+
+    print("P", end="")
+
+    print("Y", end="")
+
+    print("  ")
+
+    print("B", end="")
+
+    print("I", end="")
+
+    print("R", end="")
+
+    print("T", end="")
+
+    print("H", end="")
+
+    print("D", end="")
+
+    print("A", end="")
+
+    print("Y", end="")
+
+    print("  ")
+    # For the next 4 print lines: This is optional, you can add a nick name and extend or remove the print statements based on length of nickname, Just to make it more personal)
+
+    
+    print("{Nick}", end="")
+
+    print("{Name}", end="")
+
+    print("{Can go}", end="")
+
+    print("{Here(optional)}!!!")
+    Age = None
+    # Add any age you want, I had just put in "Old AF" to make it funny 
+    while (Age != "{Age}"):
+        Age= input("What is the Age: ")
+        if(Age == "{Age}"):
+            # Add a funny message for accepting the age, I had put in "That is honest," {Name} is OLD AF :')
+            print("{Funny message part 1}" +Name + " " "{Funny message part 2}")
+        else:
+            # Write a funny message to reject the age, I had put in "Liar Liar, Pants on Fire"
+            print("{Funny message}"+ Name + " " + "Try older maybe?")
+            sleep= 10
+
+  else:
+            print(Name+" doesnt exist, Try again")
+  
+print("All jokes aside, HAPPY BIRTHDAY!!!!!!!!")
